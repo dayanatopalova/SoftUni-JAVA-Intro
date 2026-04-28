@@ -9,7 +9,6 @@ public class Combinations {
         int x1 = 0;
         int x2 = 0;
         int x3 = 0;
-        int sum = 0;
 
         int counter = 0;
 
