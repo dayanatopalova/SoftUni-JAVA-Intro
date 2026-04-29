@@ -31,7 +31,7 @@ public class SumNumbers {
         if(found){
             System.out.printf("Combination N: %d (%d + %d = %d)", counter, i, j, magicNumber);
         }else{
-            System.out.printf("%d combinations - neither equals %d", counter, magicNumber);
+            System.err.printf("%d combinations - neither equals %d", counter, magicNumber);
         }
 
     }
